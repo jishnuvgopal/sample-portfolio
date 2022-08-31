@@ -1,0 +1,35 @@
+/*body {
+    background: url('bg3.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+  }
+  */
+#navbarNav{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-transform: uppercase;
+}
+ #navbarNav a:hover{
+    background: #3f4c5a;
+    transition: .2s;
+    border-radius: 10px;
+}
+
+#main h2{
+  position: relative;
+  text-transform: uppercase;
+  color: #3f4c5a;
+  -webkit-text-stroke:  0.3vw #143253;
+}
+
+#main h2::before{
+  border-right: 2px solid #143253;
+  -webkit-text-stroke-color: 0.3vw black;
+animation:animate 6s linear ;
+}
+.name{
+  text-transform: uppercase;
+  font-weight: 800;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
